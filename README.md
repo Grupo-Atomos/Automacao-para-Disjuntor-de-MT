@@ -64,7 +64,7 @@ Distribuído sob a licença XYZ. Veja `LICENSE` para mais informações.
 ## Contribuições
 
 1. O que é o HTML5 (<https://www.devmedia.com.br/o-que-e-o-html5/25820>)
-2. Guia Completo de CSS (<https://www.devmedia.com.br/guia/css/38149#:~:text=CSS%20%C3%A9%20a%20linguagem%20que%20cuida%20da%20apar%C3%AAncia%20de%20uma%20p%C3%A1gina%20web.&text=Assista%20ao%20curso%20abaixo%20onde,e%20outras%20caracter%C3%ADsticas%20em%20detalhes.>)
+2. Guia Completo de CSS (<https://www.devmedia.com.br/guia/css/38149>)
 3. Primeiros passos no HTML5, JavaScript e CSS3 (<https://www.devmedia.com.br/primeiros-passos-no-html5-javascript-e-css3/25647>)
 4. Faça o _commit_ (`git commit -am 'Add some fooBar'`)
 5. _Push_ (`git push origin feature/fooBar`)
