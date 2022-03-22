@@ -59,7 +59,7 @@ Jurandir Hora – [@jurandirhora](https://twitter.com/...) – grupoatomos@gmail
 
 Distribuído sob a licença XYZ. Veja `LICENSE` para mais informações.
 
-[JurandirHora/link-github](https://github.com/JurandirHora)
+[JurandirHora/link-github](https://github.com/grupo-atomos)
 
 ## Contribuições
 
