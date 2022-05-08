@@ -1,11 +1,14 @@
-# Domotic-MT 4.0
+# Automacao-para-Disjuntor-de-MT (Domótics-MT 4.0)
 > Controle automatizado para disjuntores de média tensão.
 
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
-Este projeto visa controlar de qualquer lugar do mundo, desde que se tenham sinal de wifi com acesso a internete, disjuntores de média tensão. o controle será realizado via APP sendo possivel o monitoramento da tensão, da corrente, do fator de potência, da potências.
+## Descrição: 
+Domótics-MT 4.0 visa controlar de qualquer lugar do mundo, através de um broker MQTT via wi-fi, Disjuntores de Média Tensão. 
+O software possibilitará ligar e desligar o disjuntor, além de monitorar
+as grandezas envolvidas neste tipo de equipamento.
 
 ![](../header.png)
 
@@ -41,17 +44,17 @@ npm test
 ## Histórico de lançamentos
 
 * 0.2.1
-    * MUDANÇA: Atualização de docs (código do módulo permanece inalterado)
+    * MUDANÇA: Melhoria na descrição
 * 0.2.0
-    * MUDANÇA: Remove `setDefaultXYZ()`
+    * MUDANÇA: 
     * ADD: Adiciona `init()`
 * 0.1.1
-    * CONSERTADO: Crash quando chama `baz()` (Obrigado @NomeDoContribuidorGeneroso!)
+    * CONSERTADO: Indentação..
+    * MUDANÇA: Nome do Software para(Domotics 4.0).
 * 0.1.0
-    * O primeiro lançamento adequado
-    * MUDANÇA: Renomeia `foo()` para `bar()`
+    * Primeiro lançamento.
 * 0.0.1
-    * Trabalho em andamento
+    * Criado o index.html
 
 ## Meta
 
@@ -75,4 +78,4 @@ Distribuído sob a licença XYZ. Veja `LICENSE` para mais informações.
 [npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
 [travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
 [travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[wiki]: https://github.com/seunome/seuprojeto/wiki
+[Site]: https://github.com/Grupo-Atomos/Automacao-para-Disjuntor-de-MT

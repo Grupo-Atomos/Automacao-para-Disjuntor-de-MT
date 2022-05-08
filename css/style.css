@@ -1,0 +1,193 @@
+﻿
+/*  Data:13/03/2022
+    Títolo: Painel de Manobra para Disjuntor de Média Tensão
+    Empresa: Átomos Eletrotécnica.
+    Autor: Jurandir Hora
+    
+    Estilo: paisagem do iPad largura: 1024px 
+    
+Aspectos do Body */
+body {
+    /* sem scrool */
+    overflow: hidden;
+    background-color:#212121;
+    position: absolute;
+    top: 48.5%;
+    left: 50%;
+    margin-right: 50%;
+transform: translate(-50.8%, -50%) }
+
+}    
+
+/*Container do botão fullScreen*/
+.box-fullScreen {
+    position: absolute;
+    background-color:#212121;
+    width: 0%;
+    height: 0%;
+    top: 0px;
+    left: 22px;
+    z-index: 2;
+    
+}
+/*Container da porta do painel*/
+.PortaDoPainel {
+    float:  center;
+    /* largura do painel */
+    width: 995px;
+    /* Altura do painel */
+    height: 650px;
+    margin: auto;
+    
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 17px;
+    background: #A59F93;
+    box-shadow:  5px 5px 2px #7a766d,
+    -5px -5px 3px #d0c8b9;
+}
+
+/*Tamanho da imagem do disjuntor*/
+.dj {
+    object-fit: contain;
+    width: 20%;
+    height: 20%;
+}
+/*Container da imagens da etiqueta ligar*/
+.box-EtiLigar{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 465px;
+    left: 100px;
+    z-index: 0;
+}
+
+/*Tamanho da imagens da etiqueta ligar*/
+.EtiLigar {
+    object-fit: contain;
+    width: 147px;
+    height: 175px;  
+    pointer-events: none;
+}
+
+/*Container da imagens do botão vermelho*/
+.box-botaovm {
+    position: absolute;
+    
+    width: 60%;
+    height: 60%;
+    top: 542px;
+    left: 126px;
+    z-index: 1;
+}
+
+/*Tamanho da imagens do botão vermelho*/
+.btnvm {
+    object-fit: contain;
+    width: 92px;
+    height: 92px;   
+}
+
+
+/*Container da imagens da etiqueta Desligar*/
+.box-EtiDesligar{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 465px;
+    left: 250px;
+    z-index: 0;
+}
+
+/*Tamanho da imagens da etiqueta Desligar*/
+.EtiDesligar {
+    object-fit: contain;
+    width: 147px;
+    height: 147px;  
+    pointer-events: none;
+}
+
+
+/*Container da imagens do botão verde*/
+.box-botaovd {
+    position: absolute;
+    
+    width: 60%;
+    height: 60%;
+    top: 542px;
+    left: 277px;
+    z-index: 1;
+}
+
+/*Tamanho da imagens do botão verde*/
+.btnvd {
+    object-fit: contain;
+    width: 92px;
+    height: 92px;   
+}
+
+
+/*Container da imagens da etiqueta Registro*/
+.box-EtiRegistro{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 465px;
+    left: 386px;
+    z-index: 0;
+}
+
+/*Tamanho da imagens da etiqueta Registro*/
+.EtiRegistro {
+    object-fit: contain;
+    width: 175px;
+    height: 175px;  
+    pointer-events: none;
+}
+
+
+/*Container da imagens do botão Registro*/
+.box-botaoRegistro {
+    position: absolute;
+    
+    width: 60%;
+    height: 60%;
+    top: 542px;
+    left: 427px;
+    z-index: 1;
+}
+
+/*Tamanho da imagens do botão verde*/
+.btnRegistro {
+    object-fit: contain;
+    width: 92px;
+    height: 92px;   
+}
+
+/*Sombra das imagens dos botão*/
+.imagebtns{
+    -webkit-filter:drop-shadow(5px 9px 8px #000000);
+}
+.imageimagebtns:hover{
+    -webkit-filter:grayscale(0%);
+    transition: 1s;
+}
+
+.btn-push {
+    position: relative;
+    top: 0px; 
+}
+
+.btn-push:active {
+    position: relative;
+    top: 2px;
+    -webkit-transition: All 150ms ease;
+    -moz-transition: All 150ms ease;
+}
+
+/* Media Queries */
+
