@@ -18,40 +18,51 @@
     Para aprender usar o Github desktop:https://www.youtube.com/watch?v=Fj3gtbaF8WA -- https://www.youtube.com/watch?v=_AUP5ta2uf8
     https://www.youtube.com/watch?v=2Y0HXnYpn9E
     Musica para ouvir enquanto programa: https://www.youtube.com/watch?v=wlJLMY2FYuQ&list=PLdE7uo_7KBkfAWkk7-Clm18krBuziKQfr&index=24
-    Atualizado em 08/05/2022
+    Atualizado em 08/05/2022 por jurandir
 -------------------------------------------------------------------------------------------------------------------------------------->
 
 <!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
+
     <meta charset="UTF-8" />
     <title>Domótics-MT 4.0</title>
     <meta name="mobile-web-app-capable" content="yes">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- CSS largura minima: 720px -->
-    <link rel="stylesheet" media="(min-width: 375px)" href="css/style.css"/>
-  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style2.css" />
+    <!-- (min-width: 767px) and (max-width: 1023px) -->
+
+
+
 </head>
 
 <body>
+
     <div class="img-responsive">
 
-        <div class="PortaDoPainel">
-            <img class="dj" id="img1" src="img/Logo1.png" />
+
+        <div class="PlacaDoPainel">
+            <div class="box-rele">
+                <img class="ampola-na" id="img2" src="img/ligado.gif" />
+            </div>
+        </div>
+
+        <div>
+            <img class="rele" id="img1" src="img/Dj.png" />
         </div>
 
         <!-- <div class ="box-fullScreen"> -->
         <!-- <input type="submit" class="texto" value="~ Tela Cheia" id="b" onClick="toggleFullScreen();"/> -->
-
         <!-- </div> -->
 
         <!--botão verde-->
-        <div class="box-botaovm">
-            <!-- Transição de cor do botõ-->
+        <div class="box-botaoLigar">
+            <!-- Transição de cor do botõ btnVM btnVD-->
             <div class="imagebtns">
                 <div class="btn-push">
-                    <input type="image" class="btnvm" id="btnDesl" src="img/btnVM.png" />
+                    <input type="image" class="btnLiga" id="btnLigar" src="img/btnVD.png" />
                 </div>
             </div>
         </div>
@@ -65,56 +76,68 @@
         </div>
 
         <!--botão verde-->
-        <div class="box-botaovd">
-            <!-- Transição de cor do botõ-->
-            <div class="imagebtns">
-                <div class="btn-push">
-                    <input type="image" class="btnvd" id="btnDesl" src="img/btnVD.png" />
-                </div>
-            </div>
-        </div>
+
 
         <!--etiqueta ligar Vermelha-->
         <div class="box-EtiDesligar">
             <!-- Transição de cor do botõ-->
             <div>
-                <input type="image" class="EtiLigar" id="Eti-Ligar" src="img/EtiDesligar.png" />
+                <input type="image" class="EtiDesligar" id="Eti-Ligar" src="img/EtiDesligar.png" />
             </div>
         </div>
 
-        <!--botão verde-->
-        <div class="box-botaoRegistro">
+        <!--botão registro-->
+        <!-- <div class="box-botaoRegistro"> -->
+
+        <!-- <div class="imagebtns"> -->
+        <!-- <div class="btn-push"> -->
+        <!-- <input type="image" class="btnRegistro" id="btnreg" src="img/btnPR.png" /> -->
+        <!-- </div> -->
+        <!-- </div> -->
+        <!-- </div> -->
+
+        <!--botão desligar-->
+        <div class="box-botaoDesligar">
             <!-- Transição de cor do botõ-->
             <div class="imagebtns">
                 <div class="btn-push">
-                    <input type="image" class="btnRegistro" id="btnDesl" src="img/btnPR.png" />
+                    <input type="image" class="btnDesligar" id="btnDesli" src="img/btnVM.png" />
                 </div>
             </div>
         </div>
 
-        <!--etiqueta ligar Vermelha-->
-        <div class="box-EtiRegistro">
-            <!-- Transição de cor do botõ-->
-            <div>
-                <input type="image" class="EtiRegistro" id="Eti-Res" src="img/EtiAC.png" />
-            </div>
-        </div>
-    </div>
+        <!-- <div class="box-EtiRegistro"> -->
 
-    <script>
-        function toggleFullScreen() {
-            if (!document.fullscreenElement) {
-                document.documentElement.requestFullscreen();
-            } else {
-                if (document.exitFullscreen) {
-                    document.exitFullscreen();
+        <!-- <div> -->
+        <!-- <input type="image" class="EtiRegistro" id="Eti-Res" src="img/EtiAC.png" /> -->
+        <!-- </div> -->
+        <!-- </div> -->
+
+        <div class="box-led-red">
+            <div class="led-red">
+            </div>
+
+        </div>
+
+        <!-- <div class="led-box"> -->
+        <!-- <div class="led-red"></div> -->
+        <!-- <p>WiFi</p> -->
+        <!-- </div> -->
+
+        <script>
+            function toggleFullScreen() {
+                if (!document.fullscreenElement) {
+                    document.documentElement.requestFullscreen();
+                } else {
+                    if (document.exitFullscreen) {
+                        document.exitFullscreen();
+                    }
                 }
             }
-        }
-    </script>
-    <!-- <div class="img-responsive"> -->
-    <!-- <img id="img1" src="img/dj1.png"/> -->
-    <!-- </div>	 -->
+        </script>
+        <!-- <div class="img-responsive"> -->
+        <!-- <img id="img1" src="img/dj1.png"/> -->
+        <!-- </div>	 -->
 </body>
 
 </html>
